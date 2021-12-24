@@ -20,7 +20,7 @@ function App() {
     }
 }, [gamestate])
 
-const checkWinner = () => {
+const checkWinner = () =>{
   const lines = [
       [0, 1, 2],
       [3, 4, 5],
